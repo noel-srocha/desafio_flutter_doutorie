@@ -13,7 +13,7 @@ Aplicação Flutter responsiva (mobile e desktop/Windows) para autenticação e 
 - Teste unitário simples para serialização do modelo.
 
 ## Endpoints
-Base: definida via arquivo .env (variável `BASE_URL`). Exemplo: `http://18.231.37.245:8080/api/v1`
+Base: definida via arquivo .env (variável `BASE_URL`). Exemplo: `http://<host>:<port>/api/v1`
 - POST `/auth/login` { email, senha }
 - GET `/livros`
 - POST `/livros`
